@@ -1,0 +1,77 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar .left a,
+.navbar .center h2,
+.navbar .right a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .left a {
+    font-size: 20px;
+}
+
+.navbar .center h2 {
+    font-size: 22px;
+}
+
+.navbar .right a {
+    font-size: 24px;
+}
+
+/* Profile Icon */
+.navbar .right i {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Search Bar Styling */
+.search-bar-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-bar-container form {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar-container input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.search-bar-container button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar-container button:hover {
+    background-color: #45a049;
+}
+
+/* Button Styling */
+.container .btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.container .btn:hover {
+    background-color: #45a049;
+}

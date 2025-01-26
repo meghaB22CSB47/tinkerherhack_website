@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar .left, .navbar .center, .navbar .right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: #444;
+    border-radius: 5px;
+}
+
+/* Recent Messages Section */
+.recent-messages-container {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recent-messages-container h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.messages-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.message-item {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.message-item strong {
+    font-weight: bold;
+}
+
+/* Timeline Section */
+.container {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Button */
+.btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #ff5722;
+}
+
+/* Search Bar */
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.search-bar-container input {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-bar-container button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-bar-container button i {
+    margin-left: 5px;
+}
+
+.search-bar-container button:hover {
+    background-color: #ff5722;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .recent-messages-container, .container {
+        width: 90%;
+    }
+
+    .search-bar-container input {
+        width: 80%;
+    }
+}
